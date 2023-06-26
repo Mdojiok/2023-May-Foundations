@@ -10,6 +10,7 @@
     margin: 5px;
     width: 45%;
     height: 40%;
+    position: absolute;
 }
 
 .top-nav {
