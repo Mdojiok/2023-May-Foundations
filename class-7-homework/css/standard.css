@@ -1,0 +1,44 @@
+html, body {
+    font-family: sans-serif;
+    font-size: 3vh;
+    color: #303030;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    background-color: #00a000;
+    grid-gap: 0.25em;
+    padding: 0.25em;
+    grid-template-columns: auto auto auto auto;
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 0.5em;
+}
+
+.header {
+    grid-area:  1 / 1 / span 1 / span 4;
+    font-weight: bold;
+}
+
+.left {
+    grid-area: 2 / 1 / span 0 / span 1 ;
+}
+
+.middle {
+    grid-area: 2 / 2 / span 1 / span 2 ;
+}
+
+.right {
+    grid-area: 3 / 2 / span 0 / span 1;
+}
+
+.footer-left {
+    grid-area:  3 / 1 / span 1 / span 2;
+}
+
+.footer-right {
+    grid-area: 3 / 3 / span 1 / span 2;
+}
