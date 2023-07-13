@@ -130,3 +130,11 @@ font-size: 1.25em;
     color: #303030;
     text-decoration: underline;
 }
+
+#mobile-nav, #mobile-trigger {
+    display: none;
+}
+
+#mobile-nav, #mobile-trigger, #bonus {
+    display: none;
+}
