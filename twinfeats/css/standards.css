@@ -138,3 +138,7 @@ font-size: 1.25em;
 #mobile-nav, #mobile-trigger, #bonus {
     display: none;
 }
+
+#mobile-nav, #mobile-trigger, #bonus, .bonus-img {
+    display: none;
+}
