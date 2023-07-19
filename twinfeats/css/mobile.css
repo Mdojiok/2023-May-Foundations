@@ -146,3 +146,7 @@ figcaption {
     display: block;
     width: 100%;
 }
+
+#contact > div {
+    top: calc(4vh + 3.5em);
+}

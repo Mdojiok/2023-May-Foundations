@@ -56,6 +56,20 @@ article::before {
     background-image: url(../images/c64.jpg);
 }
 
+.btn {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: white;
+    background-color: red;
+    border: 10px solid var(--clr-accent);
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transform: translateY(-10px)
+}
+
 .logo {
     width: 9ch;
 }
@@ -141,4 +155,18 @@ font-size: 1.25em;
 
 #mobile-nav, #mobile-trigger, #bonus, .bonus-img {
     display: none;
+}
+
+#contact > div {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: calc(10vh + 3.5rem);
+    transform: translateX(-50%);
+    text-align: left;
+}
+
+#contact > div > * {
+    margin-bottom: 1rem;
 }
