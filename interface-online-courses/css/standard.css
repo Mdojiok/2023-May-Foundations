@@ -27,7 +27,6 @@ a {
 }
 
 nav a {
-    text-decoration: none;
     padding-left: 1em;
     padding-right: 1em;
     border-left: 1px solid gray;
@@ -203,4 +202,28 @@ footer {
 #about::before {
     background-image: url("images/kent-teaching.jpg");
     background-position: center top;
+}
+
+.box {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    background-color: white;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 1em;
+}
+
+article > h2 {
+    background-color: #000060;
+    color: #ffffff;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
